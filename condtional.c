@@ -3,9 +3,9 @@
 int main()
 {
 	int m;
-	printf("Enter the student marks:");
-	scanf("%d", &m);
-	if(m>=85 && m<=100)
+	printf("Enter the student marks:"); /*taking input from user*/
+	scanf("%d", &m); /*assigning input value in variable 'm' */
+	if(m>=85 && m<=100) /*&& = only if both of the cases in the 'if' condition is true the true statement is executed*/
 	{
 		printf("Grade A");
 	}
@@ -23,7 +23,7 @@ int main()
 	}
 	else 
 	{
-		printf("Grade F");
+		printf("Grade F"); /*if any of the above statements are not executed then this statement is executed*/
 	}
 	return 0;
 }
